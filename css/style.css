@@ -1,0 +1,245 @@
+img {
+  max-width: 100%; }
+
+a {
+  color: #6ec0dd; }
+
+a:hover {
+  color: #6ec0dd; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif; }
+
+input {
+  padding: 10px 15px; }
+
+button, .btn, input[type=submit] {
+  border: none;
+  padding: 12px 15px;
+  font-weight: bold;
+  color: #fff;
+  background: #6ec0dd !important;
+  background: -moz-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6ec0dd), color-stop(40%, #1faadd), color-stop(100%, #00a1e0)) !important;
+  background: -webkit-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: -o-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: -ms-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: linear-gradient(to bottom, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ec0dd',endColorstr='#00a1e0',GradientType=0) !important; }
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9999;
+  padding: 10px 0px;
+  background-image: url("../images/black-tex.jpg");
+  background-position: bottom; }
+  header .logo {
+    padding: 10px; }
+  header nav ul {
+    padding: 25px;
+    margin: 0px;
+    list-style: none; }
+    header nav ul li {
+      display: inline-block;
+      padding: 10px 25px;
+      font-size: 18px; }
+      header nav ul li a {
+        color: #fff;
+        font-weight: bold; }
+
+main {
+  margin-top: 114px; }
+  main #slideshow .slide {
+    position: relative; }
+    main #slideshow .slide img {
+      width: 100%;
+      height: auto; }
+    main #slideshow .slide .overlay {
+      position: absolute;
+      color: #fff;
+      border-top-right-radius: 65px;
+      border-bottom-left-radius: 65px;
+      padding: 25px 15px;
+      padding-left: 0px;
+      padding-right: 25px;
+      border: 6px solid #fff; }
+      main #slideshow .slide .overlay h1 {
+        font-size: 36px;
+        padding: 0px 35px;
+        padding-left: 25px;
+        margin: 0px; }
+        main #slideshow .slide .overlay h1 i.fa {
+          padding-right: 10px; }
+      main #slideshow .slide .overlay p {
+        font-size: 18px;
+        margin: 20px 0px;
+        padding: 0px 25px;
+        display: inline-block; }
+      main #slideshow .slide .overlay .btn {
+        margin-top: 20px;
+        font-size: 24px;
+        float: right;
+        display: inline-block;
+        vertical-align: top; }
+    main #slideshow .slide .top-left {
+      top: 10%;
+      left: 15%; }
+    main #slideshow .slide .top-right {
+      top: 10%;
+      right: 15%; }
+    main #slideshow .slide .bottom-left {
+      bottom: 10%;
+      left: 15%; }
+    main #slideshow .slide .bottom-right {
+      bottom: 10%;
+      right: 15px; }
+    main #slideshow .slide .bottom-center {
+      width: 520px;
+      margin-left: -260px;
+      left: 50%;
+      bottom: 25%; }
+  main #actions {
+    margin: 25px 0px; }
+  main .rnd-box {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px 15px;
+    text-align: center;
+    color: #fff; }
+    main .rnd-box h2 {
+      border-radius: 10px;
+      border: 1px solid #fff;
+      margin: 0px;
+      padding: 70px 35px;
+      background-color: rgba(0, 0, 0, 0.4); }
+  main .sedan {
+    background-image: url("../images/sedan.gif");
+    background-size: cover; }
+  main .airport {
+    background-image: url("../images/airport.gif");
+    background-size: cover; }
+  main .festival {
+    background-image: url("../images/festival.jpg");
+    background-size: cover; }
+  main #features h4 {
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    margin-bottom: 0px; }
+  main #features .col-md-12 {
+    min-height: 37px;
+    padding: 5px 0px;
+    background-color: #f8f8f8;
+    font-size: 20px; }
+    main #features .col-md-12 i.fa {
+      font-size: 24px; }
+    main #features .col-md-12:nth-child(odd) {
+      background-color: #ececec; }
+  main #page #sidebar #actions .col-md-12 {
+    margin: 15px 0px; }
+  main #page .logos {
+    padding: 25px 0px; }
+
+footer {
+  margin-top: 35px;
+  background-image: url("../images/black-tex-rev.jpg");
+  background-position: top;
+  padding-bottom: 45px;
+  color: #fff; }
+  footer #banner {
+    background-image: url("../images/black-tex-trim.jpg");
+    background-position: top;
+    background-repeat: repeat-x;
+    margin-bottom: 45px;
+    padding-top: 15px; }
+    footer #banner p {
+      color: #fff;
+      margin: 0px;
+      padding: 10px 0px; }
+  footer h6 {
+    font-size: 24px;
+    text-transform: uppercase; }
+  footer nav {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px; }
+    footer nav ul {
+      margin: 0px;
+      padding: 0px; }
+      footer nav ul li {
+        padding: 10px 0px;
+        list-style: none;
+        border-bottom: 1px solid #282828; }
+        footer nav ul li a {
+          color: #fff; }
+  footer .social-media {
+    margin-top: 45px;
+    text-align: center; }
+    footer .social-media i.fa {
+      font-size: 38px;
+      margin: 0px 10px; }
+  footer .copyright {
+    font-size: 10px;
+    padding: 25px 0px; }
+
+#rate-calculator {
+  text-align: center; }
+  #rate-calculator .location-label {
+    font-weight: bold;
+    font-size: 16px; }
+  #rate-calculator #tags {
+    width: 65%;
+    margin: 15px 0px; }
+  #rate-calculator #LAX, #rate-calculator #SDA, #rate-calculator #SDD, #rate-calculator #JWA, #rate-calculator #LBA {
+    color: #6ec0dd;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px 0px; }
+  #rate-calculator .rates {
+    padding: 15px 0px; }
+
+.steel-gradient {
+  background: #eeeeee;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+  /* IE6-9 */ }
+
+.blue-gradient {
+  color: #fff;
+  background: #6ec0dd !important;
+  background: -moz-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6ec0dd), color-stop(40%, #1faadd), color-stop(100%, #00a1e0)) !important;
+  background: -webkit-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: -o-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: -ms-linear-gradient(top, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  background: linear-gradient(to bottom, #6ec0dd 0%, #1faadd 40%, #00a1e0 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ec0dd',endColorstr='#00a1e0',GradientType=0) !important; }
+
+.black-gradient {
+  color: #fff;
+  background: #45484d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #45484d 0%, #000000 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */ }
+
+.ui-autocomplete {
+  background-color: #fff;
+  padding-left: 0px;
+  list-style: none; }
+
+/*# sourceMappingURL=style.css.map */
